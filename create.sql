@@ -17,8 +17,8 @@ CREATE TABLE subjects (
 
 
 CREATE TABLE books_subjects (
-       books serial references books(id),
-       subjects serial references subjects(id)
+       book serial references books(id),
+       subject serial references subjects(id)
 );
 
 
